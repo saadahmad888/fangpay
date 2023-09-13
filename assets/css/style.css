@@ -1,0 +1,118 @@
+@import url("./variables.css");
+
+/* font-family: 'Tajawal', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background-color: #000;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+#particles-js{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/bg.jpg");
+    /* background-image: url('../images/dark-bg-1.png'); */
+    /* background-image: url('../images/dark-bg-2.png'); */
+    /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/dark-bg-3.png"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.auth-structure{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.auth-box{
+    background-color: #fff;
+    width: 100%;
+    min-height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 20px 50px 50px 50px;
+}
+
+.title{
+    font-size: 35px;
+}
+.description{
+    font-size: 14px;
+    color: #7d7d7d;
+}
+.login-form .form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-color: #000;
+}
+.login-form .form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: #000;
+}
+.auth-btn{
+    background-color: #000;
+    border: 1.5px solid #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 13px 30px;
+    font-size: 17px;
+    transition: 0.3s all ease;
+    font-weight: 500;
+}
+.auth-btn:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+.login-form .form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+.login-form .form-check-input:focus{
+    border-color: inherit;
+    box-shadow: none;
+    outline: none;
+}
+
+.login-form .form-check-input{
+    width: 20px;
+    height: 20px;
+}
+
+.login-form .form-check-label{
+    margin-top: 2px;
+    margin-left: 7px;
+}
+
+.forgot-link:hover{
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+
+.create-acc-link:hover{
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
